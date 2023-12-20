@@ -35,5 +35,9 @@
     <ItemGroup>
       <Folder Include="Migrations\" />
     </ItemGroup>
+    
+    <ItemGroup>
+        <InternalsVisibleTo Include="backend.Specs" />
+    </ItemGroup>
 
 </Project>

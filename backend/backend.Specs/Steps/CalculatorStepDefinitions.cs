@@ -1,7 +1,7 @@
 ﻿namespace backend.Specs.Steps;
 
 [Binding]
-public sealed class CalculatorStepDefinitions
+public sealed class  CalculatorStepDefinitions
 {
     // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
