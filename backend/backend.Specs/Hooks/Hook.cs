@@ -26,12 +26,12 @@ namespace backend.Specs.Hooks
                                 "Server=localhost;Port=5432;Database=cucumberTest;Username=postgres;Password=postgres"));
                     });
 
-                    IConfigurationSection? configSection = null;
-                    builder.ConfigureAppConfiguration((context, config) =>
-                    {
-                        config.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), AppSettingsFile));
-                        configSection = context.Configuration.GetSection("ConnectionStrings");
-                    });
+                    // IConfigurationSection? configSection = null;
+                    // builder.ConfigureAppConfiguration((context, config) =>
+                    // {
+                    //     config.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), AppSettingsFile));
+                    //     configSection = context.Configuration.GetSection("ConnectionStrings");
+                    // });
                 });
     }
 }
